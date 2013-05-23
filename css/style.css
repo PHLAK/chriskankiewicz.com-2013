@@ -209,3 +209,12 @@ h4 small {
     }
 
 }
+
+
+@media (max-width: 459px) {
+
+    #social-icons {
+        display: none;
+    }
+
+}
