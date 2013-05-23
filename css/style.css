@@ -170,6 +170,24 @@ h4 small {
 /* -----| RESPONSIVE |--------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------- */
 
+@media (min-width: 768px) and (max-width: 979px) {
+
+    #site-title h2 {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    #social-icons {
+        margin: .4rem 0;
+    }
+
+    #social-icons a {
+        font-size: 1.5rem;
+        margin: 0 2px;
+    }
+
+}
+
 @media (max-width: 767px) {
 
     body {
@@ -209,7 +227,6 @@ h4 small {
     }
 
 }
-
 
 @media (max-width: 459px) {
 
