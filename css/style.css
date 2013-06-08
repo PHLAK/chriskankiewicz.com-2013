@@ -8,6 +8,7 @@ body {
     font-weight: 200;
     line-height: 1.6rem;
     margin: 40px 0;
+    min-width: 420px;
 }
 
 
@@ -30,8 +31,13 @@ body {
 #site-title h2 {
     font-size: 1.5rem;
     font-weight: 800;
+    line-height: 1.5rem;
     margin: 10px 0;
     text-align: center;
+}
+
+#site-title h2 small {
+    font-size: .9rem;
 }
 
 
@@ -172,11 +178,42 @@ body {
 /* -----| RESPONSIVE |--------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------- */
 
+
+
+@media (min-width:1200px) {
+
+    #site-title h2 {
+        font-size: 1.7rem;
+        line-height: 1.75rem;
+    }
+
+    #site-title h2 small {
+        font-size: 1rem;
+    }
+
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+
+    #site-title h2 {
+        font-size: 1.5rem;
+    }
+
+    #site-title h2 small {
+        font-size: .9rem;
+    }
+
+}
+
 @media (min-width: 768px) and (max-width: 979px) {
 
     #site-title h2 {
         font-size: 1.1rem;
-        line-height: 1.5rem;
+        line-height: 1.2rem;
+    }
+
+    #site-title h2 small {
+        font-size: .7rem;
     }
 
     #social-icons {
@@ -214,8 +251,13 @@ body {
     }
 
     #site-title h2 {
-        text-align: left;
+        text-align: center;
+        line-height: 1.2rem;
         margin: 0 0 0 50px;
+    }
+
+    #site-title h2 small {
+
     }
 
     #social-icons {
@@ -226,14 +268,6 @@ body {
     #social-icons a {
         font-size: 1.5rem;
         margin: 0 2px;
-    }
-
-}
-
-@media (max-width: 459px) {
-
-    #social-icons {
-        display: none;
     }
 
 }
