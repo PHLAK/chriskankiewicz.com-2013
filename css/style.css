@@ -8,7 +8,7 @@ body {
     font-weight: 200;
     line-height: 1.6rem;
     margin: 40px 0;
-    min-width: 420px;
+    min-width: 440px;
 }
 
 
@@ -31,14 +31,10 @@ body {
 #site-title h2 {
     font-size: 1.5rem;
     font-weight: 800;
-    line-height: 1.5rem;
     margin: 10px 0;
     text-align: center;
 }
 
-#site-title h2 small {
-    font-size: .9rem;
-}
 
 
 /* ---------------------------------------------------------------------------------------------- */
@@ -193,11 +189,13 @@ body {
 
     #site-title h2 {
         font-size: 1.7rem;
-        line-height: 1.75rem;
     }
 
-    #site-title h2 small {
-        font-size: 1rem;
+    #social-icons a {
+        font-size: 1.75rem;
+        line-height: 1.75rem;
+        width: 1.75rem;
+        padding: 6px 7px;
     }
 
 }
@@ -206,10 +204,7 @@ body {
 
     #site-title h2 {
         font-size: 1.5rem;
-    }
-
-    #site-title h2 small {
-        font-size: .9rem;
+        line-height: 1.6rem;
     }
 
 }
@@ -221,17 +216,16 @@ body {
         line-height: 1.2rem;
     }
 
-    #site-title h2 small {
-        font-size: .7rem;
-    }
-
     #social-icons {
         margin: .4rem 0;
     }
 
     #social-icons a {
-        font-size: 1.5rem;
-        margin: 0 2px;
+        font-size: 1rem;
+        line-height: 1rem;
+        margin: 0 1px;
+        width: 1rem;
+        padding: 4px;
     }
 
 }
@@ -261,22 +255,20 @@ body {
 
     #site-title h2 {
         text-align: center;
-        line-height: 1.2rem;
         margin: 0 0 0 50px;
-    }
-
-    #site-title h2 small {
-
     }
 
     #social-icons {
         float: right;
-        margin: .4rem 0;
+        margin: .3rem 0 0;
     }
 
     #social-icons a {
-        font-size: 1.5rem;
-        margin: 0 2px;
+        font-size: 1.2rem;
+        margin: 0 1px;
+        padding: 5px 6px;
+        width: 1.2rem;
+        line-height: 1.2rem;
     }
 
 }
