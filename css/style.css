@@ -7,7 +7,7 @@ body {
     font-weight: 200;
     line-height: 1.6rem;
     margin: 40px 0;
-    min-width: 440px;
+    min-width: 480px;
 }
 
 
@@ -116,28 +116,22 @@ body {
 /* -----| CONTENT AREA |------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------- */
 
+.contact-info-table {
 
-.intro-wrapper {
     background-color: #EFEFEF;
     border-radius: 6px;
     font-size: 1rem;
-    padding: 20px;
-    text-align: justify;
-}
-
-.intro-wrapper hr {
-    border-top: 1px solid #DEDEDE;
-    border-bottom: 1px solid #F3F3F3;
-    margin: 20px 0;
-}
-
-.contact-info-table {
-    font-size: .9rem;
     width: 100%;
 }
 
 .contact-info-table td {
-    padding: 0;
+    padding: 20px;
+}
+
+.lead {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    text-align: justify;
 }
 
 
