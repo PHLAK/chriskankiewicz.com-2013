@@ -3,8 +3,8 @@
 /* ---------------------------------------------------------------------------------------------- */
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 200;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
     line-height: 1.6rem;
     margin: 40px 0;
     min-width: 480px;
@@ -129,7 +129,9 @@ body {
 }
 
 .lead {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
     margin-top: 20px;
     text-align: justify;
 }
