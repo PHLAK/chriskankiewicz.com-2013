@@ -117,7 +117,6 @@ body {
 /* ---------------------------------------------------------------------------------------------- */
 
 .contact-info-table {
-
     background-color: #EFEFEF;
     border-radius: 6px;
     font-size: 1rem;
@@ -129,13 +128,15 @@ body {
 }
 
 .lead {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.75rem;
     margin-top: 20px;
     text-align: justify;
 }
 
+.inner-padding {
+    padding: 0 30px;
+}
 
 #content-area h3 {
     border-bottom: 1px solid #EEE;
@@ -145,26 +146,19 @@ body {
     margin: 2rem 0 1rem;
 }
 
-#content-area h4 {
-    font-size: 1rem;
-}
-
-
 #content-area h4 small {
-    font-size: .7rem;
-}
-
-.row-wrapper {
-    padding: 0 30px;
-}
-
-#content-area ul {
     font-size: .8rem;
 }
 
-
 #content-area ul li {
     line-height: 1.5rem;
+}
+
+.inline li {
+    background-color: #F3F3F3;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 4px 6px !important;
 }
 
 
