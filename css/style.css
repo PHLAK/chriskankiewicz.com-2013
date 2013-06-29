@@ -162,7 +162,7 @@ body {
 }
 
 .inline li {
-    background-color: #F3F3F3;
+    background-color: #EFEFEF;
     border-radius: 4px;
     margin: 5px;
     padding: 4px 6px !important;
@@ -225,7 +225,7 @@ body {
     }
 
     #side-bar {
-        background-color: #F3F3F3;
+        background-color: #EFEFEF;
         margin: 0 0 20px;
         padding: 10px;
         position: relative;
