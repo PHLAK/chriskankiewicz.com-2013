@@ -7,7 +7,6 @@ body {
     font-weight: 300;
     line-height: 1.6rem;
     margin: 40px 0;
-    min-width: 480px;
 }
 
 
@@ -33,6 +32,7 @@ body {
     font-weight: 800;
     line-height: 1.6rem;
     margin: 10px 0;
+    white-space: nowrap;
 }
 
 #blurb {
@@ -132,6 +132,15 @@ body {
 
 .contact-info-table td {
     padding: 20px;
+}
+
+.contact-info-mobile {
+    background-color: #EFEFEF;
+    border-radius: 6px;
+    display: none;
+    font-size: 1rem;
+    padding: 20px;
+    text-align: center;
 }
 
 .lead {
@@ -254,6 +263,37 @@ body {
     #social-icons {
         float: right;
         margin: .2rem 0 0;
+    }
+
+}
+
+@media (max-width: 520px) {
+
+    #site-title {
+        float: none;
+        margin: 0;
+    }
+
+    #site-title img {
+        display: none;
+    }
+
+    #site-title h2 {
+        margin: 0;
+    }
+
+    #social-icons {
+        display: block;
+        float: none;
+        margin-top: .5rem;
+    }
+
+    .contact-info-table {
+        display: none;
+    }
+
+    .contact-info-mobile {
+        display: block;
     }
 
 }
