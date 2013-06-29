@@ -270,12 +270,16 @@ body {
 @media (max-width: 520px) {
 
     #site-title {
+        display: block;
         float: none;
         margin: 0;
+        text-align: center;
     }
 
     #site-title img {
-        display: none;
+        float: none;
+        max-width: 300px;
+        width: 100%;
     }
 
     #site-title h2 {
