@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Oxygen', sans-serif;
+    font-size: 100%;
     font-weight: 300;
     line-height: 1.6rem;
     margin: 40px 0;
@@ -13,10 +14,6 @@ body {
 /* ---------------------------------------------------------------------------------------------- */
 /* -----| SIDE BAR |----------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------- */
-
-#side-bar {
-    position: fixed;
-}
 
 #site-title {
     color: #333;
@@ -33,6 +30,10 @@ body {
     line-height: 1.6rem;
     margin: 10px 0;
     white-space: nowrap;
+}
+
+#site-title img {
+    max-width: 100%;
 }
 
 #blurb {
